@@ -1,0 +1,8 @@
+.gradle/
+**/.gradle/
+.DS_Store
+.idea
+.idea/**
+build/
+.idea/workspace.xml
+out/

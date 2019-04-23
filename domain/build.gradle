@@ -1,0 +1,5 @@
+apply from: "$rootDir/gradle/scripts/kotlin.gradle"
+
+dependencies {
+    compile project(':result')
+}
