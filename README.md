@@ -1,20 +1,20 @@
 # api-patterns
 
-#SystemOrchestration 
+# SystemOrchestration 
 Originates the orchestration of MessagingServices (#MessagingService)
 
-#MessagingService
+# MessagingService
 Handles the orchestration of MessagingFactory, SystemClient and ResponseService
 
-#MessagingFactory
+# MessagingFactory
 Responsible for producing a message to get sent by SystemClient.
 
-#SystemClient
+# SystemClient
 Responsible for making a network exchange with an external resource. Proper error handling should be provided here. 
 
-#ServiceError
+# ServiceError
 Class definition of 
 
-#ServiceName
+# ServiceName
 
-#ErrorType
+# ErrorType
