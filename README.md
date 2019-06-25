@@ -13,8 +13,11 @@ Responsible for producing a message to get sent by [SystemClient](#SystemClient)
 Responsible for making a network exchange with an external resource. Proper error handling should be provided here. 
 
 # ServiceError
-Class definition of 
+Stores the name of the Service the error originated from, message and errorType describing the nature of error. 
 
 # ServiceName
 
+Enumerated list of all existing Messaging Services
+
 # ErrorType
+Enumerated list of possible error types
